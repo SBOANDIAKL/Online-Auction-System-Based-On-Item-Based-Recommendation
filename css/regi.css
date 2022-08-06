@@ -1,0 +1,46 @@
+body {
+    background-color: #eee;
+}
+
+.nav-link:hover {
+    background-color: #525252 !important;
+}
+
+.nav-link .fa {
+    transition: all 1s;
+}
+
+.nav-link:hover .fa {
+    transform: rotate(360deg);
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.icon {
+    width: 51px;
+    height: 51px;
+}
+
+/* //table */
+
+.tableFixHead {
+    overflow-y: auto;
+    max-height: 600px;
+}
+
+.tableFixHead thead th {
+    position: sticky;
+    top: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
